@@ -270,7 +270,7 @@ public class JFXComboBox<T> extends ComboBox<T> implements IFXLabelFloatControl 
      */
     private StyleableBooleanProperty labelFloat = new SimpleStyleableBooleanProperty(StyleableProperties.LABEL_FLOAT,
         JFXComboBox.this,
-        "lableFloat",
+        "labelFloat",
         false);
 
     public final StyleableBooleanProperty labelFloatProperty() {
